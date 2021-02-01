@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3679CC0-AB7C-4F35-02AC-20DAF789BA79" name="Camine">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>0D655CBA-DA15-CBDF-DC19-3BF3CFBC492B</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_camin" id="718871C8-D3E1-568D-6B32-CBF1F827F3A4">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>55F83321-823D-1DE1-EDA7-3D20255880C2</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>id_camin_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>id_camin_trg</autoIncrementTriggerName>
+</Column>
+<Column name="nume_camin" id="D63940D0-DD42-E3A6-10D1-0A23E5B16517">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>DC7A8A0D-CDF4-6D80-7DC2-BBB35AD61784</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_camere" id="17D262EB-B242-0DE5-C4F0-DFAD6D93B44A">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>A9EBC5AC-3816-F42F-7FFA-A90E2A326904</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>camine_nr_camere_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>300</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="nr_etaje" id="17587A6B-5E83-DEED-D85E-B573D532DAC3">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>72EED3C8-6EC2-E56C-E3C1-E64FAB293A89</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>camine_nr_etaje_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>9</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="capacitate_camere" id="B71CD6C8-ADE9-4813-A338-6EE92C1B14CF">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>A3B26E61-0380-043E-C097-A59A8337E865</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>camine_capacitate_camere_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>4</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="bucatarie" id="A2B07AE0-82E6-F1E9-7C8A-BD4AF13DACA1">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>4866DA77-800D-2270-2287-D34996068FCC</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>camine_bucatarie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="Da" description=""/>
+<valueDef value="Nu" description=""/>
+</listOfValues>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_conducere" id="B9A10816-CB3F-93CA-6E24-CD1261EF9E0F">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>3F1D23C3-A58B-977F-416A-BC2F3931C7E2</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27289757-DF98-A5A7-A6AF-BFA09D141180" referredColumn="C60191A9-636A-6BA3-F97B-86BD46878AB8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38A7F476-483E-54A0-8006-4ECCDCFB7D28" name="Camine_PK">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>F9C55B81-39B8-9D55-5714-B2DA3E4B0C69</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718871C8-D3E1-568D-6B32-CBF1F827F3A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2DB5D7D-F28D-D595-0E78-7C79461BAFFF" name="camine_nume_camin_uk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>578F7614-81B8-ABD4-B48C-480E79FFBF28</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D63940D0-DD42-E3A6-10D1-0A23E5B16517"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F828E8BA-F0E8-AA4C-BF92-51EC2543BE0F" name="Camine__IDX">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1C9E5836-1070-9ECB-21FB-AC0CFE2F5913</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B9A10816-CB3F-93CA-6E24-CD1261EF9E0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AEC84B5-8ED5-345C-E1E4-C83CC5BF9751" name="conducere_camine_fk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>1C9E5836-1070-9ECB-21FB-AC0CFE2F5913</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A10816-CB3F-93CA-6E24-CD1261EF9E0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

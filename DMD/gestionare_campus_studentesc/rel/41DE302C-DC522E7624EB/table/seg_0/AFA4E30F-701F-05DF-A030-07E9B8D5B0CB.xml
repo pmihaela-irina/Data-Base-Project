@@ -1,0 +1,232 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFA4E30F-701F-05DF-A030-07E9B8D5B0CB" name="Studenti">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>30F8C465-58D3-7BDD-F4CC-E49B8CBD1826</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_student" id="A9AAACDD-3BD0-D0BD-0666-185912E78C44">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>23DCE6B0-2CCC-A7F6-2AA7-50D6025B4ADF</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>id_student_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>id_student_trg</autoIncrementTriggerName>
+</Column>
+<Column name="nume_student" id="99D3DFEB-DD19-0BE0-8D87-FCE3838D45F0">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>C188BE1B-13FB-5D9C-F10D-FD8B895893CF</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>studenti_nume_student_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like (nume_student, &apos;^[a-zA-Z .&apos;&apos;-]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="facultate" id="397AAD77-5910-94EC-0F50-3D416799BD10">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>80BA0EDD-3851-082E-13FD-D91E8FD64A34</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>studenti_facultate_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<listOfValues>
+<valueDef value="Facultatea de Arhitectură &quot;G. M. Cantacuzino&quot;" description=""/>
+<valueDef value="Facultatea de Automatică și Calculatoare" description=""/>
+<valueDef value="Facultatea de Construcții de Mașini și Management Industrial" description=""/>
+<valueDef value="Facultatea de Construcții și Instalații" description=""/>
+<valueDef value="Facultatea de Design Industrial și Managementul Afacerilor" description=""/>
+<valueDef value="Facultatea de Electronică, Telecomunicații și Tehnologia Informației" description=""/>
+<valueDef value="Facultatea de Inginerie Chimică și Protecția Mediului &quot;Cristofor Simonescu&quot;" description=""/>
+<valueDef value="Facultatea de Inginerie Electrică, Energetică și Informatică Aplicată" description=""/>
+<valueDef value="Facultatea de Mecanică" description=""/>
+<valueDef value="Facultatea de Știința și Ingineria Materialelor" description=""/>
+</listOfValues>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="an_studiu" id="30BE34AD-6400-7285-82AC-7ECD91CAF8AB">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>34BFAC9F-3F3F-E513-087B-24D8C76F6C03</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>studenti_an_studiu_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="Doctorat I" description=""/>
+<valueDef value="Doctorat II" description=""/>
+<valueDef value="Doctorat III" description=""/>
+<valueDef value="I" description=""/>
+<valueDef value="II" description=""/>
+<valueDef value="III" description=""/>
+<valueDef value="IV" description=""/>
+<valueDef value="Master I" description=""/>
+<valueDef value="Master II" description=""/>
+<valueDef value="V" description=""/>
+<valueDef value="VI" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefon" id="60F4E19E-A459-78A6-6346-2A94FEA76E94">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>5948B2B4-DF7F-8B7E-FF07-930ACB774202</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>studenti_nr_telefon_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(nr_telefon,&apos;^(07[0-8]{1}[0-9]{1}|02[0-9]{2}|03[0-9]{2}){1}([0-9]{3}){2}$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa_email" id="9BF2044C-59C6-A24B-E3C5-1C96F7CAA5A5">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>35C0B51C-643B-F086-F22E-12460D1AA7C2</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>studenti_adresa_email_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(adresa_email, &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2,4}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cont_banca" id="329F7C7C-D1E4-A76B-C544-F3152753AF18">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>F644ABB6-106E-3CCA-DCE5-B3D3A6DF5FF5</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>studenti_cont_banca_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(cont_banca, &apos;[a-zA-Z]{2}[0-9]{2}[a-zA-Z0-9]{4}[0-9]{7}([a-zA-Z0-9]?){0,16}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_cazare" id="07682ED2-7D02-875B-E38B-8FA1689A3992">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>4FD930FA-BB70-7E11-2E58-081F31952109</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_decazare" id="68864401-728E-5E28-B3FF-CCA09922D8CB">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>B06F992A-4716-326F-CC98-C9F7487576B8</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>studenti_data_decazare_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="data_decazare &gt; data_cazare"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_camera" id="95DC2CF1-5176-AFF1-61EC-2D437B6F08C7">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>EEF42E09-FBD4-C922-D603-897C4149ECB4</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C04EFDE-D6D1-32D7-A2F7-5FD291404D32" referredColumn="C77E12AF-1B4C-0DFA-C740-CDBDC758F29C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEFB62E3-DCA0-08D9-7D17-67A83D63DA8A" name="Studenti_PK">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>F53CD914-96C8-CF07-16CC-E66B786D39A1</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9AAACDD-3BD0-D0BD-0666-185912E78C44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94EEA0C1-4CFF-DE97-B7D1-A97D6C3CCC74" name="studenti_adresa_email_uk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>58D937AD-B3C4-7488-6A93-F974FCC43CF4</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BF2044C-59C6-A24B-E3C5-1C96F7CAA5A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13F9C9B2-E34B-CC9F-6E1F-A6E7FFDC1BDB" name="studenti_nr_telefon_uk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>DADA6C6B-B68F-97AF-1C59-8C3986F824FD</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60F4E19E-A459-78A6-6346-2A94FEA76E94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF8AA2F1-2139-D8A1-3FBD-E2F5401BF54B" name="camere_studenti_fk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>28BC3E39-FA53-EF50-C372-165238E1C410</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95DC2CF1-5176-AFF1-61EC-2D437B6F08C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Dosare" directorySegmentName="seg_0" id="4E023B3F-3F3A-8B70-07F5-C4446EC33E4F">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="status" id="2FFC5E70-FF01-FA0B-7A10-9C8F23410816">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_student" id="3E4FBF08-EBAD-2412-ECA3-DCA50158EE1C">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_referate" id="4DF6F964-BFC8-0378-B6AC-5AE5FFB04D5F">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_dosar" id="A9BEB9B1-3431-00EB-80FE-0661C005682B">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_avertismente" id="E459774F-9DD4-14ED-A7F3-70425014A929">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Dosare__IDX" id="B152C6B8-74EE-0055-7FB5-0F4DD9A0FA6B">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="studenti_dosare_fk" id="A2E47231-0E4E-A5F9-7797-07F7E5BCF824">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Dosare_PK" id="094E6D70-BEE3-1B42-A948-B4C2F63283B6">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D2649A70-E493-95C9-0AB4-FF9F39B4915A" containerWithKeyObject="38C9C16C-CF35-D5A6-7028-C87CF7424D44" localFKIndex="2C58D82C-9340-52C8-A218-4ED414A930AA" name="camere_studenti_fk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>28BC3E39-FA53-EF50-C372-165238E1C410</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<referredTableLongName>Camere</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3FDAE5E7-AE4F-91B5-258A-DA945CA5ED16</referredTableID>
+<keyObject>2D67E86A-A861-7661-78C9-669FA661E2B2</keyObject>
+<referredKeyID>2D67E86A-A861-7661-78C9-669FA661E2B2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_camera</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

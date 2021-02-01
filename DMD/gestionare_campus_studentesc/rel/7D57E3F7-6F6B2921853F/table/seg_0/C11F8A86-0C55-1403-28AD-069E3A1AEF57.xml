@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C11F8A86-0C55-1403-28AD-069E3A1AEF57" name="Registre">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>012D030E-B696-D448-3CAC-3C43D0CA8E09</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_registru" id="8BF8F520-73BF-C0C5-5FB8-F7B8B86F3825">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>D397B8A6-52A8-F3C8-0FE0-6B9A91A32E36</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>id_registru_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>id_registru_trg</autoIncrementTriggerName>
+</Column>
+<Column name="octombrie" id="41ED1EEC-C1B9-14A7-CE45-C558C1C9611F">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>1CEF8925-1C4E-D702-9ECA-894635BF0AB9</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>registre_octombrie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="noiembrie" id="2637E421-90E0-0CFA-E3F2-B6AAD146F268">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>9DA52E4B-9DC6-8562-E931-EB07E7E4D5FE</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>registre_noiembrie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="decembrie" id="E4152AA2-53D1-32E4-AD10-52FF0CCE78DB">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>889EB6E4-06DE-5C6A-A188-04A39DAD497C</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>registre_decembrie</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ianuarie" id="2300DAD4-8E64-8239-8819-9F2AD1D5ABA9">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>783E75CA-C0E1-7667-117A-5D9E262B5206</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>registre_ianurie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="februarie" id="1004F024-CD16-313F-BC16-4DBF77FA6007">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>F7164ED4-8B20-9732-C847-25AEBAB47947</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>registre_februarie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="martie" id="C518C84D-F714-3A17-7362-26ADF02E5456">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>F8F14572-039C-F1D1-18C8-85360DB214FA</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aprilie" id="E8DFD623-9DF8-4442-6906-B189F32DEF30">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>FD03CE5F-FFE7-86AD-AC57-BAAA49667BBD</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mai" id="8029F149-FE2D-45C7-6294-3F266319FE5B">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>5AF8AB7D-52C1-7F39-A903-2ACCC46A3EC0</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iunie" id="BA2AF229-72B5-244F-0C59-C896DF60E616">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>2E0A39E8-DE1E-DA45-91A9-09815CF238AB</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iulie" id="C0A630DB-99B0-874B-249D-C373762712C7">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>0FC358F1-A3B7-6211-53B7-3EB8AAE41F5A</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31F9A7D8-96BA-476B-EDFA-4136219428AC" name="Registre_PK">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:33:23 UTC</createdTime>
+<generatorID>FFC2B4E0-9F37-D2CA-1959-6EC1367FF576</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BF8F520-73BF-C0C5-5FB8-F7B8B86F3825"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

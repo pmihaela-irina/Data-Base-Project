@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4985D232-D13B-0B2F-D870-32105D6FB297" name="Dosare">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>5FB6631E-7995-652B-048C-27B48FFC6AA6</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dosar" id="D1AAFFAC-A8B8-3C06-7D73-798B17DB7F3E">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>8BE0BEF9-B774-E64C-3450-EC5F874184AD</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>id_dosar_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>id_dosar_trg</autoIncrementTriggerName>
+</Column>
+<Column name="nr_avertismente" id="C834FEFC-365F-DA68-90D0-6182FB38E8AF">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>1E37A7A8-4EA3-E3D9-0F47-937026CFCECF</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>dosare_nr_avertismente_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>3</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="nr_referate" id="F7B97AC2-B5FD-DF5B-A8BF-FE17282D65DF">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>306F6167-6B36-206B-D1A2-020DE990E3DA</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>dosare_nr_referate_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>3</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="status" id="6F47A171-4F1D-DCAA-DB18-1DFF2C056F08">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>54B694CD-CFE9-5DE2-CCA5-A96769492C00</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>dosare_status_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="Cazat" description=""/>
+<valueDef value="Decazat" description=""/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_student" id="B3E17AFA-C860-4D24-46E5-04C4930E2FE5">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>7E1B0C93-76F2-76C0-D4E8-67EAFC190D71</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5411E055-3190-D71A-BC6E-17B8101C2CB8" referredColumn="A9AAACDD-3BD0-D0BD-0666-185912E78C44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0705650A-DE77-744D-587F-63857E6ED090" name="Dosare_PK">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>628357D1-0CAA-2D8C-994F-1A0282152FC0</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1AAFFAC-A8B8-3C06-7D73-798B17DB7F3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BB2C991-1139-2E00-BA6D-C35A73C924E8" name="Dosare__IDX">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>35FA86FB-ACBB-EA60-52A4-B518E635D8E1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B3E17AFA-C860-4D24-46E5-04C4930E2FE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="783FC6A1-A269-A69B-F024-66204C7A0177" name="studenti_dosare_fk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>35FA86FB-ACBB-EA60-52A4-B518E635D8E1</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3E17AFA-C860-4D24-46E5-04C4930E2FE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

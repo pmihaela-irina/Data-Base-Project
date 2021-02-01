@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Studenti" directorySegmentName="seg_0" id="AFA4E30F-701F-05DF-A030-07E9B8D5B0CB">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="data_cazare" id="07682ED2-7D02-875B-E38B-8FA1689A3992">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="an_studiu" id="30BE34AD-6400-7285-82AC-7ECD91CAF8AB">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cont_banca" id="329F7C7C-D1E4-A76B-C544-F3152753AF18">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="facultate" id="397AAD77-5910-94EC-0F50-3D416799BD10">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_telefon" id="60F4E19E-A459-78A6-6346-2A94FEA76E94">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_decazare" id="68864401-728E-5E28-B3FF-CCA09922D8CB">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_camera" id="95DC2CF1-5176-AFF1-61EC-2D437B6F08C7">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume_student" id="99D3DFEB-DD19-0BE0-8D87-FCE3838D45F0">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="adresa_email" id="9BF2044C-59C6-A24B-E3C5-1C96F7CAA5A5">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_student" id="A9AAACDD-3BD0-D0BD-0666-185912E78C44">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="camere_studenti_fk" id="FF8AA2F1-2139-D8A1-3FBD-E2F5401BF54B">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Studenti_PK" id="AEFB62E3-DCA0-08D9-7D17-67A83D63DA8A">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="studenti_nr_telefon_uk" id="13F9C9B2-E34B-CC9F-6E1F-A6E7FFDC1BDB">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="studenti_adresa_email_uk" id="94EEA0C1-4CFF-DE97-B7D1-A97D6C3CCC74">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

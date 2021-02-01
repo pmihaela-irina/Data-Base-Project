@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Camere" directorySegmentName="seg_0" id="57833AA1-9E6D-DCF0-6AAA-3006CA75486F">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="status" id="37689B51-404D-DCDF-30B5-94B003788989">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_camera" id="44F1DBD1-17C6-ED19-53DF-909688BCEC76">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tarif" id="6F6CE945-CE8E-0D25-1080-DF04CA066E0E">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_camin" id="881F6F5F-637F-7055-A063-F7CE0D273BB5">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tip_camera" id="8DABD00E-97E5-044C-AE2F-69DAD1481403">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_camera" id="ADB8F5B5-C53E-F698-63D6-389EE8B82057">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tip_baie" id="B1D150AE-EC4F-4042-D6D6-AB06F0C0E7F1">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_studenti" id="D892356D-2984-613C-5682-10C65B0980B3">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="camine_camere_fk" id="75C9F29E-0493-157C-F6F7-A4DCFE84010F">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Camere_PK" id="9857461D-6343-F717-F77E-60450E75A3E5">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 07:46:15 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

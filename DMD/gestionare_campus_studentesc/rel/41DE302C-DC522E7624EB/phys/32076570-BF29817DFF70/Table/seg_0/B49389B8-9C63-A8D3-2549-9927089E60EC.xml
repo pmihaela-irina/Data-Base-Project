@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Conducere" directorySegmentName="seg_0" id="B49389B8-9C63-A8D3-2549-9927089E60EC">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nume_prodecan" id="0A8F154C-FAAF-2E84-6202-4662E243938A">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_conducere" id="3C092CE7-7BEF-27B6-36C2-9E80ABDEB24D">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume_administrator" id="702A12E1-B5B2-34AA-1E32-328E20622151">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume_presedinte" id="9437F3D8-C0C5-89F5-EACC-F624C6B6D51C">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Conducere_PK" id="87954484-C03C-3F5F-6B42-E43B79F10D4D">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="conducere_nume_presedinte_uk" id="D6B08C65-AC26-2F78-56D1-69C38C24C035">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:06:35 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

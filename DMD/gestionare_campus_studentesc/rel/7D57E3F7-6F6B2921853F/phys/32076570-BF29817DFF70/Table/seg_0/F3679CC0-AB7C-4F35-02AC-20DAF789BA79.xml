@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Camine" directorySegmentName="seg_0" id="F3679CC0-AB7C-4F35-02AC-20DAF789BA79">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nr_etaje" id="17587A6B-5E83-DEED-D85E-B573D532DAC3">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_camere" id="17D262EB-B242-0DE5-C4F0-DFAD6D93B44A">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_camin" id="718871C8-D3E1-568D-6B32-CBF1F827F3A4">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="bucatarie" id="A2B07AE0-82E6-F1E9-7C8A-BD4AF13DACA1">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="capacitate_camere" id="B71CD6C8-ADE9-4813-A338-6EE92C1B14CF">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_conducere" id="B9A10816-CB3F-93CA-6E24-CD1261EF9E0F">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume_camin" id="D63940D0-DD42-E3A6-10D1-0A23E5B16517">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Camine__IDX" id="F828E8BA-F0E8-AA4C-BF92-51EC2543BE0F">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="conducere_camine_fk" id="4AEC84B5-8ED5-345C-E1E4-C83CC5BF9751">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Camine_PK" id="38A7F476-483E-54A0-8006-4ECCDCFB7D28">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="camine_nume_camin_uk" id="A2DB5D7D-F28D-D595-0E78-7C79461BAFFF">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:55:37 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Trg_data_decazare_BRIU" directorySegmentName="seg_0" id="C200B7FB-1B56-F41D-801F-273920B83AAA">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:56:36 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+	IF(:new.data_decazare < SYSDATE)
+	THEN
+		RAISE_APPLICATION_ERROR( .20001,
+			'Data invalida: ' || TO_CHAR( :new.data_cazare, 'DD.MM.YYYY HH24:MI:SS') || ' trebuie sa fie mai mare decat data curenta.' );
+	END IF;
+
+END; ]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>38C9C16C-CF35-D5A6-7028-C87CF7424D44</table>
+</TriggerOraclev10g>

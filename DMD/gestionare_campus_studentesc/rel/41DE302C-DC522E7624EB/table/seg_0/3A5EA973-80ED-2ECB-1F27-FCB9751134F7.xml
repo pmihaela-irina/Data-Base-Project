@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A5EA973-80ED-2ECB-1F27-FCB9751134F7" name="Date_studenti">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>016D3210-E7D2-B618-4E3A-A5BBA7071F7C</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CNP" id="E4479F0E-04A5-651E-69B0-C9FC3C2640DE">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>0B64E9EF-4858-19F8-557B-084E7ED5C0DC</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>date_studenti_CNP_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(CNP,&apos;(1|2|5|6)\d{2}(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])(0[1-9]|[1-4]\d|5[0-2]|99)\d{4}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seria_CI" id="B1F80249-4736-2142-4DEF-39228C62224E">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>57D9B005-CA0B-F237-24EB-A1D84796FE78</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>date_studenti_seria_CI_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like (seria_CI, &apos;^[a-zA-Z .&apos;&apos;-]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_CI" id="F3411CBB-A1F2-3697-18E3-D3FC588E2ECE">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>EED7E2CB-34EA-D34C-5DE2-13D03543E5D7</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>date_studenti_nr_CI_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(nr_CI, &apos;[0-9][0-9][0-9][0-9][0-9][0-9]&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa_domiciliu" id="171CF258-ED05-E502-B3BC-95EF3BE120AA">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>87D2527B-F57B-04D2-C9BA-488E2E5DF1F9</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_student" id="3EC25EF6-96F4-9829-E586-385DEFD6ECCF">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>459F553B-CD0F-615C-2D86-5DE1B8A2F732</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EBC0B77-C225-77B3-2112-224D6E3B7268" referredColumn="A9AAACDD-3BD0-D0BD-0666-185912E78C44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C746FC8-80F4-A3A8-1407-8BAE05FB4914" name="date_studenti_CNP_uk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>F0A2DD33-7A8C-AC15-C98D-A821513B1A03</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4479F0E-04A5-651E-69B0-C9FC3C2640DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DFB5651-9633-063A-3F3A-17C5E80DB9EB" name="date_studenti_seria_nr_CI_uk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>7043D7E3-7EEA-802D-A877-DE47FF3BD75C</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1F80249-4736-2142-4DEF-39228C62224E"/>
+<colUsage columnID="F3411CBB-A1F2-3697-18E3-D3FC588E2ECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21AB030A-5BAB-6D91-7EF9-15DB3AE8D87A" name="Date_studenti__IDX">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B5855805-4279-B7EF-B9DB-CE598A0A4EB4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3EC25EF6-96F4-9829-E586-385DEFD6ECCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13E15D22-7CA1-2EA8-B4E9-7B9C78D5430C" name="studenti_date_studenti_fk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>B5855805-4279-B7EF-B9DB-CE598A0A4EB4</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EC25EF6-96F4-9829-E586-385DEFD6ECCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

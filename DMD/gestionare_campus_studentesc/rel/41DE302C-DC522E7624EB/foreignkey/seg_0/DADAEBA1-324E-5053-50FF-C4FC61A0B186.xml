@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DADAEBA1-324E-5053-50FF-C4FC61A0B186" containerWithKeyObject="D82E57C0-3BBF-0926-A3F0-06B5042A2686" localFKIndex="987FA93A-EBEF-09A2-17D5-8417415D6CDC" name="conducere_camine_fk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 07:00:04 UTC</createdTime>
+<generatorID>1C9E5836-1070-9ECB-21FB-AC0CFE2F5913</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<referredTableLongName>Conducere</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B49389B8-9C63-A8D3-2549-9927089E60EC</referredTableID>
+<keyObject>87954484-C03C-3F5F-6B42-E43B79F10D4D</keyObject>
+<referredKeyID>87954484-C03C-3F5F-6B42-E43B79F10D4D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_conducere</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

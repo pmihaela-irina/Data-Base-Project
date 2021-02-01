@@ -1,0 +1,28 @@
+Tema proiectului: Gestiunea activității campusului studențesc TUIASI
+
+Specificatii:
+
+
+Volumul mare de informații existente în cazul unui campus cu numeroși studenți determină necesitatea fluitizării fluxurilor de date ce traversează sistemele informaționale administrative ale unui campus, gestiunea acestora fiind o adevărata provocare. 
+În vederea realizării acestei baze de date vom avea nevoie să cunoaștem informații despre: 
+-cămine: ne interesează să cunoaștem denumirea acestuia, ce capacitate are și dacă dispune de o bucătărie pentru studenții cazați.
+-camere: legat de acestea sunt utile informațiile referitoare la numărul de studenți ce pot fi cazați, 
+	tariful aferent cazării (ce poate sa difere în funcție de cămin, de facilitățile aduse de acesta și de tipul camerei, mai exact acesta poate lua valorie 120, 130, 135, 150, 200, 270, sau 0), 
+	tipul camerei (poate fi single, dublă, triplă, cvadublă, oficiu sau garsonieră),
+	tipul băii (poate fi comună, la modul sau proprie), 
+	și statusul ei (liberă, ocupată parțial sau ocupată total) pentru a putea ști dacă mai putem caza studenți în interiorul ei. Denumirea sa trebuie să fie unică pentru căminul din care face parte
+-conducerea căminului: este necesar să cunoaștem numele persoanelor ce au în administrare un cămin, mai exact numele prodecanului facultății a cărei studenți pot fi cazați într-un cămin,
+	numele administratorului
+	și numele președintelui de cămin. 
+-studenți: în cazul informațiilor despre studenți vrem să cunoaștem numele acestora,
+	datele lor personale (CNP, seria și numărul cărții de identitate),
+	adresa de domiciliu,
+	facultatea pe care o urmează și anul de studiu,
+	un cont bancar pe care îl vor utiliza pentru achitarea tarifului de cazare. Pe lângă datele sale personale, 
+	mai este nevoie obligatoriu de un număr de telefon și o adresă de email pentru ca persoana respectivă să poată fi contactată pentru orice eventualitate. 
+	De asemenea, este nevoie să stocăm data la care studentul este cazat. Decazarea acestuia se va face după o periadă de 10 luni, însă există posibiliatea ca acesta să fie decazat dacă face un cumul de 3 referate, referatul întocmindu-se în momentul în care se acumulează un număr de 3 avertismente. 
+	Trebuie ținută o evidență a achitării căminului pentru lunile în care studentul este cazat în camin, întârzierea plății unei luni va obliga conducerea să îi ofere studentului un avertisment (însă nu este singurul criteriu de oferire a avertismentelor).
+
+
+Cerinte:
+Sa se implementeze o baza de date relationala pentru gestiunea contextului mentionat.
